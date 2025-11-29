@@ -638,7 +638,7 @@ font-size: 11px;
 .form {
     margin: 40px auto;
     padding: 8rem 5rem;
-    background: #E9F9FF; /* light blue like screenshot */
+    background: #E9F9FF; 
     border-radius: 40px;
     text-align: center;
     position: relative;
@@ -660,7 +660,7 @@ font-size: 11px;
     color: #00000099;
     margin-bottom: 3rem;
 }
-/* Left image */
+
 .img-left {
     position: absolute;
     bottom: 0;
@@ -668,7 +668,7 @@ font-size: 11px;
     width: 260px;
 }
 
-/* Right image */
+
 .img-right {
     position: absolute;
     bottom: 0;
@@ -676,7 +676,7 @@ font-size: 11px;
     width: 260px;
 }
 
-/* Form wrapper */
+
 .form form {
     background: #fff;
     display: flex;
@@ -688,7 +688,7 @@ font-size: 11px;
     border-radius: 12px;
 }
 
-/* Input */
+
 .form form input {
     flex: 1;
     padding: 15px;
@@ -698,7 +698,7 @@ font-size: 11px;
     border-radius: 10px;
 }
 
-/* Button */
+
 .form form button {
     background: #000;
     color: #fff;
@@ -724,8 +724,8 @@ footer {
 }
 .up h3 {
     font-family: Lobster;
-font-weight: 400;
-font-size: 24px;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .up span {
@@ -774,3 +774,373 @@ font-size: 24px;
     gap: 1rem;
 }
 
+
+/* --------------------------------------- */
+/*   LAPTOP / SMALL DESKTOP (<=1024px)    */
+/* --------------------------------------- */
+@media (max-width: 1024px) {
+    nav {
+        padding: 2rem 3rem;
+    }
+    
+    .links {
+        gap: 0.75rem;
+        font-size: 15px;
+    }
+    
+    .icons {
+        gap: 1.5rem;
+    }
+
+
+    .rectangle {
+        flex-direction: column;
+        position: relative;
+    }
+    
+    .left {
+        border-radius: 4rem 4rem 0 0;
+        padding: 2rem 2rem;
+    }
+    
+    .left h2 {
+        font-size: 48px;
+        text-align: center;
+    }
+    
+    .lorem {
+        text-align: center;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    
+    .section {
+        justify-content: center;
+        gap: 1rem;
+    }
+    
+    .prof {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .rec-logo {
+        display: none;
+    }
+    
+    .right img {
+       display: none;
+    }
+    
+    .hot {
+        margin-bottom: 2rem;
+    }
+    
+    .section {
+        margin-bottom: 2rem;
+    }
+
+    .categories {
+        gap: 5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .categories div {
+        padding: 1.5rem 1.5rem;
+        border-radius: 2rem;
+    }
+    .categories div:first-child, .categories div:nth-child(2) {
+        margin-top: 2rem;
+    }
+    .categories img {
+        height: 10rem;
+    }
+    
+  
+    .head {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+    
+    .recipes-container h2 {
+        font-size: 40px;
+        margin-top: 8rem;
+    }
+
+    .recipes-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .recipe {
+        padding: 1.5rem;
+    }
+
+    .content h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .items {
+        gap: 1.5rem;
+    }
+
+    .card-div {
+        margin-left: 1.5rem;
+        top: 1.5rem;
+    }
+
+    .card-div p {
+        font-size: 20px;
+    }
+
+    .chef {
+        margin-top: 8rem;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .c-left {
+        text-align: center;
+    }
+
+
+    .c-left button {
+        margin-top: 3rem;
+    }
+
+    .c-right {
+        display: none;
+    }
+
+    .insta {
+        margin: 0 -2rem;
+        padding: 0 2rem;
+        padding-bottom: 3rem;
+    }
+
+    .insta h3 {
+        font-size: 40px;
+        margin-top: 12rem;
+    }
+
+    .i-text {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .posts {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .post {
+        width: 100%;
+    }
+
+    .delicious {
+        margin: 8rem 0;
+    }
+
+    .top {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+        margin-bottom: 4rem;
+    }
+
+    .top h3 {
+        font-size: 40px;
+    }
+
+    .top h3 br {
+        display: none;
+    }
+
+    .top p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .top p br {
+        display: none;
+    }
+
+    .del-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .images img:last-child {
+        right: 2rem;
+        top: 1.5rem;
+        padding: 0.7rem;
+    }
+
+    .grid {
+        margin-bottom: 2rem;
+    }
+
+    .idk {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .items {
+        display: flex;
+        gap: 1.5rem;
+        margin-top: 1rem;
+    }
+
+    .item {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+
+    .item p {
+        font-size: 12px;
+    }
+
+    footer {
+        margin: 2rem 3rem;
+        margin-top: 6rem;
+    }
+
+    .up {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        padding: 2.5rem 0;
+    }
+
+    .l-up {
+        gap: 0.8rem;
+    }
+
+    .l-up p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .r-up {
+        gap: 2rem;
+        font-size: 14px;
+    }
+
+    .down {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin: 2rem 0;
+        text-align: center;
+    }
+
+    .down p {
+        font-size: 16px;
+    }
+    
+
+
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rectangle {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+    .categories {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .recipes-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .chef {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .insta-posts {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --------------------------------------- */
+/*   LARGE PHONE (<=480px)                 */
+/* --------------------------------------- */
+@media (max-width: 480px) {
+    body {
+        padding: 0 10px;
+    }
+
+    nav ul {
+        gap: 8px;
+    }
+
+    .rectangle > * {
+        width: 100% !important;
+    }
+
+    .categories {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .recipes-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .chef img {
+        width: 120px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    body {
+        font-size: 14px;
+        padding: 0 8px;
+    }
+
+    .rectangle {
+        gap: 1rem;
+    }
+
+    .categories {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .recipes-grid {
+        gap: 1rem;
+    }
+
+    .chef img {
+        width: 100px;
+    }
+
+    nav ul {
+        font-size: 14px;
+    }
+}

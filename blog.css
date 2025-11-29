@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #0000001A;
+    padding: 2rem 5rem;
+    justify-items: center;
+}
+.logo {
+    font-family: 'lobster';
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.logo span {
+    color: red;
+}
+
+.links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+
+.links a {
+    text-decoration: none;
+    color: #000000;
+}
+a:visited {
+    color: #000000;
+}
+.icons {
+    display: flex;
+    gap: 2rem;
+    height: 1.5rem;
+}
+
+main {
+    margin: 5rem;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first h1 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -4%;
+    margin-bottom: 2rem;
+}
+
+
+.prof {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.proff {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.name {
+    font-family: Inter;
+    font-weight: 700;
+    letter-spacing: -2%;
+    color: #000000;
+}
+.date {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -2%;
+    color: #00000099;
+}
+.divider {
+    width: 1px;
+    height: 2rem;
+    background-color: #0000001A; 
+}
+
+.text {
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #00000099;
+    margin-bottom: 3rem
+}
+
+.blog-1 {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 6rem;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    gap: 9rem;
+    margin: 0 8rem;
+}
+
+.main h2 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: -4%;
+    margin-bottom: 1rem;
+}
+
+.main p {
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    color: #00000099;
+    margin-bottom: 3rem;
+}
+
+.blog-2 {
+    margin-top: 1rem;
+}
+
+
+#grey {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 64px;
+    letter-spacing: -4%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+    padding: 3rem 2rem;
+    border-top: 1px solid #0000001A;
+    border-bottom: 1px solid #0000001A;
+    margin-left: -2rem;
+    margin-bottom: 3rem;
+    color: #000000;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.other p {
+    white-space: nowrap;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 10%;
+}
+.other img {
+    height: 1.3rem;
+}
+
+
+.forms {
+    margin: 5rem auto;
+    padding: 8rem 5rem;
+    background: #E9F9FF; 
+    border-radius: 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+
+.forms h2 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -4%;
+    margin-bottom: 2rem;
+}
+
+.forms p {
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    color: #00000099;
+    margin-bottom: 3rem;
+}
+
+.img-left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 260px;
+}
+
+
+.img-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 260px;
+}
+
+
+.forms form {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+    padding: 0.5rem;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+
+.forms form input {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+
+.forms form button {
+    background: #000;
+    color: #fff;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.delicious {
+    margin: 10rem 0;
+    margin-bottom: 5rem;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    align-items: center;
+}
+
+.top h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -4%;
+    text-align: center;
+}
+
+
+.del-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    
+}
+
+.images {
+    position: relative;
+}
+
+
+
+.images img:last-child {
+    position: absolute;
+    right: 4rem;
+    top: 2rem;
+    background: #FFFFFF;
+    padding: 0.8rem;
+    border-radius: 50%;
+}
+
+.grid {
+    margin-bottom: 3rem;
+}
+.idk {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -4%;
+    margin-top: 1rem;
+}
+.items {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.item p {
+    white-space: nowrap;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -2%;
+    color: #00000099;
+}
+
+footer {
+    margin: 0 5rem;
+}
+.up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+    border-bottom: 1.5px solid #0000001A
+}
+.up h3 {
+    font-family: Lobster;
+font-weight: 400;
+font-size: 24px;
+}
+
+.up span {
+    color: red;
+}
+
+.l-up {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.l-up p {
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    color: #00000099;
+}
+
+.r-up {
+    display: flex;
+    gap: 1.5rem;
+    font-family: Inter;
+    font-weight: 500;
+    letter-spacing: -2%;
+}
+.r-up a {
+    text-decoration: none;
+}
+
+.down {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+
+.down p {
+    font-family: Eudoxus Sans;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -2%;
+}
+
+.b-icons {
+    display: flex;
+    gap: 1rem;
+}
+

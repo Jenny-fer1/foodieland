@@ -775,9 +775,6 @@ footer {
 }
 
 
-/* --------------------------------------- */
-/*   LAPTOP / SMALL DESKTOP (<=1024px)    */
-/* --------------------------------------- */
 @media (max-width: 1024px) {
     nav {
         padding: 2rem 3rem;
@@ -1050,97 +1047,3 @@ footer {
 
 
 
-
-
-
-@media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .rectangle {
-        flex-direction: column;
-        text-align: center;
-        gap: 1.5rem;
-    }
-
-    .categories {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 12px;
-    }
-
-    .recipes-grid {
-        grid-template-columns: 1fr;
-        gap: 1.5rem;
-    }
-
-    .chef {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .insta-posts {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* --------------------------------------- */
-/*   LARGE PHONE (<=480px)                 */
-/* --------------------------------------- */
-@media (max-width: 480px) {
-    body {
-        padding: 0 10px;
-    }
-
-    nav ul {
-        gap: 8px;
-    }
-
-    .rectangle > * {
-        width: 100% !important;
-    }
-
-    .categories {
-        grid-template-columns: 1fr;
-        gap: 10px;
-    }
-
-    .recipes-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-    }
-
-    .chef img {
-        width: 120px;
-    }
-}
-
-
-@media (max-width: 360px) {
-    body {
-        font-size: 14px;
-        padding: 0 8px;
-    }
-
-    .rectangle {
-        gap: 1rem;
-    }
-
-    .categories {
-        grid-template-columns: 1fr;
-        gap: 8px;
-    }
-
-    .recipes-grid {
-        gap: 1rem;
-    }
-
-    .chef img {
-        width: 100px;
-    }
-
-    nav ul {
-        font-size: 14px;
-    }
-}

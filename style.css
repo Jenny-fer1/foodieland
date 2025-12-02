@@ -1043,4 +1043,101 @@ footer {
 }
 
 
+@media (max-width: 1012px) {
+    .form img {
+        width: 13rem;
+    }
+   
+}
+@media (max-width: 916px) {
+    .form img {
+        display: none;
+    }
+   
+}
 
+
+
+@media (max-width: 952px) {
+    .recipes-container h2 {
+        font-size: 36px;
+        margin-top: 6rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    
+    
+    .recipes-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+    
+    .recipe {
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+    }
+    
+    .content h3 {
+        font-size: 20px;
+        line-height: 28px;
+        margin-top: 0.8rem;
+    }
+    .image img {
+        width: 100%;
+    }
+    .items {
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    .item p {
+        font-size: 13px;
+    }
+    
+    .fav-btn img {
+        padding: 0.6rem;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .card-div {
+        margin-left: 1.5rem;
+        top: 1.5rem;
+    }
+    
+    .card-div p {
+        font-size: 20px;
+    }
+    
+    .card-div p:last-child {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 752px) {
+    nav {
+        padding: 1.5rem 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    .links {
+        order: 3;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem 1.5rem;
+    }
+    
+    .logo {
+        order: 1;
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .icons {
+        order: 2;
+        gap: 1.5rem;
+    }
+}

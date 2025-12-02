@@ -577,3 +577,49 @@ font-size: 24px;
 
 
 }
+
+@media (max-width: 1012px) {
+    .forms img {
+        width: 13rem;
+    }
+   
+}
+@media (max-width: 916px) {
+    .forms img {
+        display: none;
+    }
+   
+}
+
+@media (max-width: 936px) {
+    .blog-2 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 752px) {
+    nav {
+        padding: 1.5rem 2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    
+    .links {
+        order: 3;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.75rem 1.5rem;
+    }
+    
+    .logo {
+        order: 1;
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .icons {
+        order: 2;
+        gap: 1.5rem;
+    }
+}

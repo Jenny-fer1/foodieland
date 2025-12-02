@@ -582,6 +582,9 @@ font-size: 24px;
     .forms img {
         width: 13rem;
     }
+    .forms p br {
+        display: none;
+    }
    
 }
 @media (max-width: 916px) {
@@ -621,5 +624,222 @@ font-size: 24px;
     .icons {
         order: 2;
         gap: 1.5rem;
+    }
+}
+
+@media (max-width: 672px) {
+    
+    .forms h2 {
+        font-size: 32px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .forms p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 2rem;
+    }
+    
+    .forms form {
+        width: 100%;
+        flex-direction: column;
+        gap: 12px;
+        padding: 0;
+        background: transparent;
+    }
+    
+    .forms form input {
+        width: 100%;
+        padding: 16px;
+        border: 1px solid #ddd;
+        margin-bottom: 0;
+    }
+    
+    .forms form button {
+        width: 100%;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 560px) {
+    .forms {
+        padding: 4rem 2.5rem;
+        margin: 20px auto;
+        max-width: calc(100% - 32px);
+        border-radius: 30px;
+    }
+    
+    
+    .forms h2 {
+        font-size: 36px;
+        margin-bottom: 1.5rem;
+        letter-spacing: -2%;
+    }
+    
+    .forms p {
+        font-size: 15px;
+        line-height: 26px;
+        margin-bottom: 2.5rem;
+    }
+    
+    .forms br {
+        display: none;
+    }
+    
+    .forms form {
+        width: 100%;
+        max-width: 380px;
+        flex-direction: column;
+        gap: 15px;
+        padding: 0;
+        background: transparent;
+        margin: 0 auto;
+    }
+    
+    .forms form input {
+        width: 100%;
+        padding: 16px 20px;
+        border: 1px solid #ddd;
+        border-radius: 12px;
+        font-size: 16px;
+    }
+    
+    .forms form button {
+        width: 100%;
+        padding: 16px 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 520px) {
+    .delicious {
+        margin: 5rem 0;
+    }
+
+    .top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .top h3 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+
+    .top p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .del-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .grid {
+        margin-bottom: 2rem;
+    }
+
+    .images img:first-child {
+        width: 100%;
+        height: auto;
+    }
+
+    .images img:last-child {
+        right: 2rem;
+        top: 1.5rem;
+        padding: 0.6rem;
+    }
+
+    .idk {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .items {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .item p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        padding: 1.5rem 1.2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.7rem;
+        font-size: 14px;
+    }
+
+    .icons {
+        gap: 1rem;
+        height: 1.2rem;
+    }
+
+
+    footer {
+        margin: 2rem 1.5rem;
+        margin-top: 4rem;
+    }
+
+    .up {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+        padding: 2rem 0;
+    }
+
+    .up h3 {
+        font-size: 20px;
+    }
+
+    .l-up p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .r-up {
+        flex-direction: column;
+        gap: 0.8rem;
+        font-size: 14px;
+        align-items: flex-start;
+    }
+
+    .down {
+        flex-direction: column;
+        gap: 1.2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    .down p {
+        font-size: 14px;
+    }
+
+    .b-icons {
+        gap: 0.7rem;
+        height: 1.2rem;
     }
 }
